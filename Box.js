@@ -17,7 +17,6 @@ class Box{
     push();
     translate(this.body.position.x, this.body.position.y);
     rectMode(CENTER);
-    fill(212, 255, 176);
     rect(0, 0, this.width, this.height);
     pop();
     }else{
